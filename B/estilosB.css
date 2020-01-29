@@ -5,43 +5,43 @@
 }
 
 body{
-    background: #e6e6e6; 
+    background: #e6e6e6;
 }
 
 header, footer, .main{
-    width:90%; /* contenido se adapta a la pantalla, contenido responsive se va a a ver en todos los dispositivos*/
+    width:80%; /* contenido se adapta a la pantalla, contenido responsive se va a a ver en todos los dispositivos*/
     margin:20px auto; /*centrar el contenido*/
-    max-width: 1000px;   
+    max-width: 1000px;
 
 }
 
 header nav{
-    background: #009fe0;   
+    background: #009fe0;
     overflow: hidden; /*oculta el contenido que sobrepasa nuestro contenedor y limpia float left*/
 }
 
 header nav ul{
-    list-style: none;  
+    list-style: none;
 }
 
 
 header nav ul li{
     float:left; /*poner elementos de la lista alineados a la izquierda*/
 }
-    
+
  header nav ul li a{ /*para modificar los enlaces*/
      padding: 10px 20px;
      display: block;
      text-decoration: none;
      color: #fff;
-}   
+}
 
 
  header nav ul li a:hover{ /*para modificar los enlaces*/
      background: #002597;
      color: #ccc;
 
-}  
+}
 
 .main .articles{
     width: 68%;
@@ -57,15 +57,15 @@ aside{
     color:#fff;
     text-align: center;
     padding: 10px;
-    box-sizing: border-box; /*para que no se salga*/ 
+    box-sizing: border-box; /*para que no se salga*/
 }
 
 .main .articles article{
     padding:20px;
     background:#fff;
     margin-bottom: 20px;
-       
-    
+
+
 }
 
 footer{
@@ -74,8 +74,8 @@ footer{
     clear:both;
     padding:10px 0px;
     text-align: center;
-    
-    
+
+
 }
 
 
@@ -87,7 +87,7 @@ form{
     padding: 20px;
     background: #009fe0;
     border-radius: 10px;
-    
+
 }
 
 
@@ -95,7 +95,7 @@ label{
     font-size: 16px;
     display: block;
     width: 100%;
-  
+
 }
 
 
@@ -105,7 +105,7 @@ textarea{
     min-height: 100px;/* para acotar el minimo*/
     max-width: 100%;
     width: 100%;
-      
+
 }
 
 input, textarea{ /*aplicamos estilo a los dos selectores*/
@@ -113,7 +113,7 @@ input, textarea{ /*aplicamos estilo a los dos selectores*/
     padding:10px;
     width: 100%;
     box-sizing:border-box;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
 }
 
 
@@ -141,15 +141,15 @@ input[type="submit"]:active{
     background: #959579;
     color:red;
      box-shadow: 0px 5px 0px  #6f6f60;
-    
+
 }
-    
+
 
 table{
     border: 2px solid #000; /*borde exterior de la tabla*/
     border-collapse:collapse;
     padding:2px;
-    
+
 }
 
 table td{ /*seleccionamos columnas*/
@@ -160,23 +160,23 @@ table td{ /*seleccionamos columnas*/
 
 table tr:hover{
     background: #ccc;
-    color: #000;    
+    color: #000;
 }
 
 
 table td:hover{
     background: #000;
     color: #fff;
-    
+
 }
 
 .asignaturas {
     list-style: none; /*Quita las viñetas de la lista*/
     padding:10px 30px;
     color:#000;
-    font-size:20px;  
-    background: #f1f1e7;   
+    font-size:20px;
+    background: #f1f1e7;
      display: block;
 
-    
+
 }
