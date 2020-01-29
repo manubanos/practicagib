@@ -1,0 +1,182 @@
+*{ /*selector universal*/
+    margin:0; /*ponemos un margin y padding a 0*
+    que agrega el navegador por defecto*/
+    padding:0;
+}
+
+body{
+    background: #e6e6e6; 
+}
+
+header, footer, .main{
+    width:90%; /* contenido se adapta a la pantalla, contenido responsive se va a a ver en todos los dispositivos*/
+    margin:20px auto; /*centrar el contenido*/
+    max-width: 1000px;   
+
+}
+
+header nav{
+    background: #009fe0;   
+    overflow: hidden; /*oculta el contenido que sobrepasa nuestro contenedor y limpia float left*/
+}
+
+header nav ul{
+    list-style: none;  
+}
+
+
+header nav ul li{
+    float:left; /*poner elementos de la lista alineados a la izquierda*/
+}
+    
+ header nav ul li a{ /*para modificar los enlaces*/
+     padding: 10px 20px;
+     display: block;
+     text-decoration: none;
+     color: #fff;
+}   
+
+
+ header nav ul li a:hover{ /*para modificar los enlaces*/
+     background: #002597;
+     color: #ccc;
+
+}  
+
+.main .articles{
+    width: 68%;
+    float:left;
+    margin-right: 2%;
+
+}
+
+aside{
+    width: 30%; /*70% de los articulos mas el 30% de la barra de estado*/
+    background: #6b6d6d;
+    float:left;
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /*para que no se salga*/ 
+}
+
+.main .articles article{
+    padding:20px;
+    background:#fff;
+    margin-bottom: 20px;
+       
+    
+}
+
+footer{
+    background:#000;
+    color:#fff;
+    clear:both;
+    padding:10px 0px;
+    text-align: center;
+    
+    
+}
+
+
+
+form{
+    width: 70%; /*ancho*/
+    border: 2px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    background: #009fe0;
+    border-radius: 10px;
+    
+}
+
+
+label{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+  
+}
+
+
+textarea{
+    resize:vertical; /*para acotar solo en vertical*/
+    max-height: 200px; /* para acotar el maximo*/
+    min-height: 100px;/* para acotar el minimo*/
+    max-width: 100%;
+    width: 100%;
+      
+}
+
+input, textarea{ /*aplicamos estilo a los dos selectores*/
+    margin-bottom: 30px;
+    padding:10px;
+    width: 100%;
+    box-sizing:border-box;
+    border: 1px solid #ccc; 
+}
+
+
+
+input:focus, textarea:focus{ /*aplicamos estilo a los dos psudoselectores cuando pulsamos los input*/
+    border: 3px solid #1668C4;
+}
+
+
+input[type="submit"]{
+    margin-bottom: 0;/* para solucionar el espaciado de debajo del boton*/
+    background: #002597;
+    border: none;
+    color:#fff;
+    border-radius: 10px;
+}
+
+
+input[type="submit"]:hover{
+    background: #ccc;
+    color:black;
+}
+
+input[type="submit"]:active{
+    background: #959579;
+    color:red;
+     box-shadow: 0px 5px 0px  #6f6f60;
+    
+}
+    
+
+table{
+    border: 2px solid #000; /*borde exterior de la tabla*/
+    border-collapse:collapse;
+    padding:2px;
+    
+}
+
+table td{ /*seleccionamos columnas*/
+    border: 1px solid #000; /*borde interior*/
+    padding: 20px;   /*para darle espaciado dentro de cada celda*/
+}
+
+
+table tr:hover{
+    background: #ccc;
+    color: #000;    
+}
+
+
+table td:hover{
+    background: #000;
+    color: #fff;
+    
+}
+
+.asignaturas {
+    list-style: none; /*Quita las viñetas de la lista*/
+    padding:10px 30px;
+    color:#000;
+    font-size:20px;  
+    background: #f1f1e7;   
+     display: block;
+
+    
+}
